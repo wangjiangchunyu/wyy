@@ -1,0 +1,11 @@
+
+platform :ios, ‘8.0’
+use_frameworks!
+
+target 'KitchenProject' do
+  pod 'AFNetworking'
+  pod 'FMDB', '~> 2.6.2'
+  pod 'SDWebImage', '~> 3.7.5'
+  pod 'MJRefresh', '~> 3.1.0'
+  pod 'Reachability', '~> 3.2'
+end

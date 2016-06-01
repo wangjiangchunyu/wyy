@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="86" id="KGk-i7-Jjw" customClass="CommunityCell">
+            <rect key="frame" x="0.0" y="0.0" width="394" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="394" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2oA-hG-emC">
+                        <rect key="frame" x="6" y="6" width="32" height="32"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UWp-wd-xsV">
+                        <rect key="frame" x="38" y="38" width="32" height="32"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Gq-nz-fRL">
+                        <rect key="frame" x="6" y="38" width="32" height="32"/>
+                        <color key="backgroundColor" red="0.87667682930000002" green="0.28650592260000002" blue="0.24778713159999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xPP-ox-L7L">
+                        <rect key="frame" x="38" y="6" width="32" height="32"/>
+                        <color key="backgroundColor" red="1" green="0.4566230885" blue="0.84366555590000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBf-vO-mxN">
+                        <rect key="frame" x="81" y="14" width="200" height="26"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfZ-lf-vot">
+                        <rect key="frame" x="81" y="48" width="305" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.62818216463414633" green="0.62818216463414633" blue="0.62818216463414633" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="FfZ-lf-vot" id="8ut-b4-3eJ"/>
+                <outlet property="imageView_Bottom_Phone" destination="UWp-wd-xsV" id="3Ez-Va-kUG"/>
+                <outlet property="imageView_LeftBottom_Phone" destination="1Gq-nz-fRL" id="1Kj-Xt-zTy"/>
+                <outlet property="imageView_LeftTop_Phone" destination="2oA-hG-emC" id="u85-HX-wSv"/>
+                <outlet property="imageView_Top_Phone" destination="xPP-ox-L7L" id="wI9-IF-wuR"/>
+                <outlet property="nameLabel" destination="DBf-vO-mxN" id="XZU-Sl-OXJ"/>
+            </connections>
+            <point key="canvasLocation" x="483" y="423.5"/>
+        </tableViewCell>
+    </objects>
+</document>
